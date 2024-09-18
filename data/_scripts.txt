@@ -1,0 +1,519 @@
+Skill 1 Attack: Damage Formula: a.atk * 4 - b.def * 2
+Skill 3 Burst Shot: Damage Formula: a.mat * 8 - b.def * 1
+Skill 4 Basic Heal: Damage Formula: 
+Skill 5 Ballsy Swing: Damage Formula: a.atk * 12 - b.def * 2
+Skill 8 Dark Darts: Damage Formula: a.atk * 35 - b.def * 2
+Skill 9 Pulse Shot: Damage Formula: a.mat * 6 - b.def * 2
+Skill 10 Charged Heal: Damage Formula: a.atk
+Skill 11 Charge Shot: Damage Formula: a.mat * 14 - b.def * 1
+Skill 12 Karate Chop: Damage Formula: a.atk * 14 - b.def * 2
+Skill 14 Revival: Damage Formula: a.atk * 5 - b.def * 2
+Skill 16 Spook!: Damage Formula: a.atk * 4 - b.def * 2
+Skill 17 Dark Wave: Damage Formula: a.atk * 30 - b.def * 2
+Skill 18 Spectral Pierce: Damage Formula: a.atk * 65 - b.def * 2
+Skill 21 Vicious Lunge: Damage Formula: a.atk * 10 - b.def * 2
+Skill 22 Double Karate Chop: Damage Formula: a.atk * 24 - b.def * 2
+Skill 23 Overload Blast: Damage Formula: a.atk * 9 - b.def * 2
+Skill 24 Ghost Palm: Damage Formula: a.atk * 26 - b.def * 2
+Skill 26 Double Swing: Damage Formula: a.atk * 5 - b.def * 2
+Skill 28 Pepe NSFW!: Damage Formula: a.atk * 20 - b.def * 2
+Skill 29 Big Flip: Damage Formula: a.atk * 10 - b.def * 2
+Skill 32 RebmanRage: Damage Formula: a.atk * 8 - b.def * 2
+Skill 34 Meme Focus: Damage Formula: b.mhp / 10
+Skill 36 RebmanRage Ultra: Damage Formula: a.atk * 8 - b.def * 2
+Skill 39 Upswing: Damage Formula: a.atk * 8 - b.def * 2
+Skill 40 Energized Strike: Damage Formula: a.atk * 12 - b.def * 2
+Skill 41 Drone Rush: Damage Formula: a.atk * 20 - b.def * 1
+Skill 42 Three-hit Combo: Damage Formula: a.atk * 5 - b.def * 2
+Skill 43 Acute Gayness: Damage Formula: a.atk * 12 - b.def * 2
+Skill 44 Existential Fracture: Damage Formula: a.atk * 30 - b.def
+Skill 45 Strange Wave: Damage Formula: a.atk * 16 - b.def * 2
+Skill 46 Piercer Fist: Damage Formula: a.atk * 14 - b.def * 2
+Skill 50 Greater Focus: Damage Formula: 200 + a.mat * 4 - b.mdf * 2
+Skill 51 Bigger Flip: Damage Formula: a.atk * 10 - b.def * 2
+Skill 52 Throat Burn: Damage Formula: a.atk * 24 - b.def * 2
+Skill 53 Huge Recovery: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 54 Log Fury!: Damage Formula: a.atk * 3 - b.def * 2
+Skill 55 Black Wave: Damage Formula: a.atk * 45 - b.def * 2
+Skill 56 Chilling Aura: Damage Formula: a.atk * 10 - b.def * 2
+Skill 58 Nullify: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 59 Double Charge: Damage Formula: a.atk * 12 - b.def * 1
+Skill 60 Persevere: Damage Formula: 200 + a.mat * 2 - b.mdf * 2
+Skill 61 Poison Dart: Damage Formula: a.atk * 2 - b.def * 2
+Skill 62 Gunplay: Damage Formula: a.atk * 4 - b.def * 2
+Skill 63 The Guy: Damage Formula: a.hp -= ([a.mat * 9999999 - a.mdf, 0].max); a.atk * 30 - b.def * 2
+Skill 64 Time Paradox: Damage Formula: a.atk * 40 - b.def * 1
+Skill 65 Primo Dab: Damage Formula: a.atk * 20 - b.def * 2
+Skill 71 Nullify: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 72 De-Spook!: Damage Formula: a.atk * 4 - b.def * 2
+Skill 74 Quick Draw: Damage Formula: a.atk * 5 - b.def * 2
+Skill 76 Perfect Penta: Damage Formula: a.atk * 4 - b.def * 2
+Skill 77 Split Shot: Damage Formula: a.atk * 6 - b.def * 2
+Skill 80 Flash Mitosis: Damage Formula: a.atk * 4 - b.def * 2
+Skill 81 Four-hit Combo: Damage Formula: a.atk * 5 - b.def * 2
+Skill 82 Force Shield: Damage Formula: a.atk * 4 - b.def * 2
+Skill 83 Kick: Damage Formula: a.atk * 4 - b.def * 2
+Skill 84 Better Heal: Damage Formula: a.atk
+Skill 85 Revival: Damage Formula: a.atk * 5 - b.def * 2
+Skill 89 Claw Dance: Damage Formula: a.atk * 12
+Skill 94 Zero Storm: Damage Formula: a.atk * 5 - b.def * 2
+Skill 95 burnout: Damage Formula: 30 + a.atk * 1 - b.def * 0.5
+Skill 99 Radiant Blade: Damage Formula: a.atk * 5 + a.mat * 5 - b.def - b.mdf
+Skill 100 Yoroidoshi: Damage Formula: a.atk * 4
+Skill 103 Tsubamekaeshi: Damage Formula: a.atk * 3 - b.def * 2
+Skill 104 Ouka Mugen jin: Damage Formula: a.atk * 4 - b.def * 2
+Skill 105 Weapon Break: Damage Formula: a.atk * 4 - b.def * 2
+Skill 106 Armour Break: Damage Formula: a.atk * 4 - b.def * 2
+Skill 108 Triple Shot: Damage Formula: a.atk * 4 + a.agi * 2 - b.def * 2
+Skill 109 pepperoni panic: Damage Formula: a.atk * 3 - b.def * 2
+Skill 110 Shoot Two: Damage Formula: a.atk * 4 - b.def * 2
+Skill 111 Claw: Damage Formula: a.atk * 4 - b.def * 2
+Skill 112 Bomb: Damage Formula: a.atk * 6 - b.def * 2
+Skill 113 Blade Harass : Damage Formula: a.atk * 2 - b.def * 2
+Skill 114 Machine Fire: Damage Formula: a.atk * 2 - b.def * 2
+Skill 115 Turret Missile: Damage Formula: a.atk * 6 - b.def * 2
+Skill 116 drakelaser: Damage Formula: a.atk * 9 - b.def * 2
+Skill 117 Fire: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 118 Mind Bolt: Damage Formula: a.atk * 4 - b.def * 2
+Skill 120 Twirl : Damage Formula: a.atk * 4 - b.def * 2
+Skill 121 Machine Guns: Damage Formula: a.atk * 2 - b.def * 2
+Skill 123 Psychic Wave: Damage Formula: a.atk * 2 - b.def * 2
+Skill 124 Sluggish Jab: Damage Formula: a.atk * 10 - b.def * 2
+Skill 125 Shield Charge: Damage Formula: a.atk * 8 - b.def * 2
+Skill 126 Solidify: Damage Formula: a.atk * 4 - b.def * 2
+Skill 127 Tuba Cannon: Damage Formula: a.atk * 7 - b.def * 2
+Skill 128 Tuba Blast: Damage Formula: a.atk * 2 - b.def * 2
+Skill 129 Tuba Rock: Damage Formula: a.atk * 12 - b.def * 2
+Skill 130 Roundhouse: Damage Formula: a.atk * 4 - b.def * 2
+Skill 131 Tackle: Damage Formula: a.atk * 3 - b.def * 2
+Skill 132 Dog: Damage Formula: a.atk * 3 - b.def * 2
+Skill 133 Kick: Damage Formula: a.atk * 7 - b.def * 2
+Skill 134 Punch: Damage Formula: a.atk * 5 - b.def * 2
+Skill 135 Volvic Gold: Damage Formula: a.atk * 2 - b.def * 2
+Skill 136 Gold Tree: Damage Formula: a.atk * 6 - b.def * 2
+Skill 137 One Two: Damage Formula: a.atk * 4 - b.def * 2
+Skill 138 Golden Aura: Damage Formula: a.atk * 3 - b.def * 2
+Skill 140 Jump: Damage Formula: a.atk * 3 - b.def * 2
+Skill 141 Sweep Kick: Damage Formula: a.atk * 3- b.def * 2
+Skill 142 Supercharge: Damage Formula: a.atk * 9 - b.def * 2
+Skill 143 Three Punches: Damage Formula: a.atk * 3 - b.def * 2
+Skill 144 Sword Swipes: Damage Formula: a.atk * 4 - b.def * 2
+Skill 145 Sword Swipe: Damage Formula: a.atk * 6 - b.def * 2
+Skill 146 Strangle Chain: Damage Formula: a.atk * 2 - b.def * 2
+Skill 149 Leg Slash: Damage Formula: a.atk * 3 - b.def * 2
+Skill 150 Stab: Damage Formula: a.atk * 12 - b.def * 2
+Skill 151 Guard: Damage Formula: a.atk * 6 - b.def * 2
+Skill 152 Wild Swings: Damage Formula: a.atk * 3 - b.def * 2
+Skill 153 Gun Trick: Damage Formula: a.atk * 3 - b.def * 2
+Skill 154 Two Swings: Damage Formula: a.atk * 4 - b.def * 2
+Skill 155 Piercing Shot: Damage Formula: a.atk * 4 - b.def * 2
+Skill 156 Wild Combo: Damage Formula: a.atk * 5 - b.def * 2
+Skill 157 Club Beatdown: Damage Formula: a.atk * 1 - b.def * 2
+Skill 158 Explosion: Damage Formula: a.atk * 5 - b.def * 2
+Skill 159 Weak Hit: Damage Formula: a.atk * 1 - b.def * 2
+Skill 160 Money Mash: Damage Formula: a.atk * 4 - b.def * 2
+Skill 161 Pew Pew: Damage Formula: a.atk * 6 - b.def * 2
+Skill 162 Mug: Damage Formula: a.atk * 4 - b.def * 2
+Skill 163 Deal Fire: Damage Formula: a.atk * 4 - b.def * 2
+Skill 164 Deal Dagger: Damage Formula: a.atk * 6 - b.def * 2
+Skill 165 Deal Drugs: Damage Formula: a.atk * 12 - b.def * 2
+Skill 166 Roll Head: Damage Formula: a.atk * 2 - b.def * 2
+Skill 169 Eye Beam: Damage Formula: a.atk * 3 - b.def * 2
+Skill 170 Punch: Damage Formula: a.atk * 5 - b.def * 2
+Skill 171 Grab: Damage Formula: a.atk * 2 - b.def * 2
+Skill 172 Solidify: Damage Formula: a.atk * 4 - b.def * 2
+Skill 173 Stone Sword: Damage Formula: a.atk * 4 - b.def * 2
+Skill 174 Slow Curse: Damage Formula: a.atk * 4 - b.def * 2
+Skill 175 Big Phone: Damage Formula: a.atk * 12 - b.def * 2
+Skill 176 Missile: Damage Formula: a.atk * 6 - b.def * 2
+Skill 177 Two shot: Damage Formula: a.atk * 4 - b.def * 2
+Skill 178 One shot: Damage Formula: a.atk * 4 - b.def * 2
+Skill 179 Wrench Throw: Damage Formula: a.atk * 10 - b.def * 2
+Skill 180 Ram: Damage Formula: a.atk * 3 - b.def * 2
+Skill 181 Wagon Gun: Damage Formula: a.atk * 1 - b.def * 2
+Skill 182 Charge King: Damage Formula: a.atk * 6 - b.def * 2
+Skill 184 Step Rat: Damage Formula: a.atk * 12 - b.def * 2
+Skill 185 Two Swipes: Damage Formula: a.atk * 4 - b.def * 2
+Skill 186 Spook! - Boss Version: Damage Formula: a.atk * 4 - b.def * 2
+Skill 187 Combo: Damage Formula: a.atk * 2 - b.def * 2
+Skill 188 Rulings: Damage Formula: a.atk * 2 - b.def * 2
+Skill 189 Poisionous Bite: Damage Formula: a.atk * 4 - b.def * 2
+Skill 190 log roll: Damage Formula: a.atk * 3 - b.def * 2
+Skill 191 photosynthesis: Damage Formula: a.atk * 12 - b.def * 2
+Skill 192 Watering: Damage Formula: 
+Skill 193 bad apple: Damage Formula: a.atk * 2 - b.def * 2
+Skill 194 Business Talk: Damage Formula: a.atk * 6 - b.def * 2
+Skill 195 Dual Swipe: Damage Formula: a.atk * 3 - b.def * 2
+Skill 196 Claw: Damage Formula: a.atk * 4 - b.def * 2
+Skill 197 Deer Charge: Damage Formula: a.atk * 12 - b.def * 2
+Skill 199 Bear Hug: Damage Formula: a.atk * 6 - b.def * 2
+Skill 201 Rifle Shot: Damage Formula: a.atk * 5 - b.def * 2
+Skill 202 Rifle Butt: Damage Formula: a.atk * 6 - b.def * 2
+Skill 203 Ascot Strangle: Damage Formula: a.atk * 2 - b.def * 2
+Skill 204 Frag Grenade: Damage Formula: a.atk * 5 - b.def * 2
+Skill 205 Stab Double: Damage Formula: a.atk * 4 - b.def * 2
+Skill 208 Frank's Stank: Damage Formula: a.atk * 4 - b.def * 2
+Skill 209 Darnell's Breaking Point: Damage Formula: a.atk * 8 - b.def * 2
+Skill 211 Darnell's Deadly Dart: Damage Formula: a.atk * 5 - b.def * 2
+Skill 212 Stunning Waft: Damage Formula: a.atk * 3 - b.def * 2
+Skill 213 Cheese Cut: Damage Formula: a.atk * 5 - b.def * 2
+Skill 214 Gross Gramps: Damage Formula: a.atk * 3 - b.def * 2
+Skill 215 Vague Bolt: Damage Formula: a.atk * 4 - b.def * 2
+Skill 216 Clench: Damage Formula: a.atk * 2 - b.def * 2
+Skill 218 Head Smack: Damage Formula: a.atk * 5 - b.def * 2
+Skill 219 Ultra Punch: Damage Formula: a.atk * 7 - b.def * 2
+Skill 220 Splitter Hit: Damage Formula: a.atk * 3 - b.def * 2
+Skill 221 Jump: Damage Formula: a.atk * 6 - b.def * 2
+Skill 222 Harpoon Gun!: Damage Formula: a.atk * 5 - b.def * 2
+Skill 223 Torpedo: Damage Formula: a.atk * 4 - b.def * 2
+Skill 224 One Jump: Damage Formula: a.atk * 6 - b.def * 2
+Skill 225 Bitedown: Damage Formula: a.atk * 3 - b.def * 2
+Skill 226 Twofer: Damage Formula: a.atk * 4 - b.def * 2
+Skill 227 Slamdown: Damage Formula: a.atk * 20 - b.def * 2
+Skill 228 Shockwave: Damage Formula: a.atk * 4 - b.def * 2
+Skill 230 Water Beam: Damage Formula: a.atk * 5 - b.def * 2
+Skill 231 Rifles Burs: Damage Formula: a.atk * 99999
+Skill 232 Kill that hoe: Damage Formula: a.atk * 99999
+Skill 233 Swaggin Dragon: Damage Formula: a.atk * 99999
+Skill 234 Glissening Double Kick: Damage Formula: a.atk * 99999
+Skill 235 Big Bite: Damage Formula: a.atk * 9 - b.def * 2
+Skill 236 Small Bite Central: Damage Formula: a.atk * 3 - b.def * 2
+Skill 237 Cruton Crusher: Damage Formula: a.atk * 20 - b.def * 2
+Skill 238 Dead Dressing: Damage Formula: a.atk * 3 - b.def * 2
+Skill 239 Tossing: Damage Formula: a.atk * 3 - b.def * 2
+Skill 240 Halving Rifles: Damage Formula: b.hp * 0.5
+Skill 241 Finisher Punch: Damage Formula: b.mhp * 0.5 + 50
+Skill 242 Weak Grenade: Damage Formula: b.mhp * 0.1
+Skill 243 The Equalizer: Damage Formula: b.hp * 0.9
+Skill 244 Quartering Stomp: Damage Formula: b.hp * 0.25
+Skill 246 Ridiculous Rock: Damage Formula: b.mhp * 1
+Skill 247 Knife: Damage Formula: b.hp * 0.75 + 50
+Skill 248 Power Stick: Damage Formula: a.atk * 9999999999999999999999999
+Skill 249 Power Stick 2: Damage Formula: a.atk * 9999999999999999999999999999
+Skill 250 Hammer Smash: Damage Formula: a.atk * 5 - b.def * 2
+Skill 251 Ground Quake: Damage Formula: b.hp * 0.25
+Skill 252 Terrifying Charge: Damage Formula: a.atk * 4 - b.def * 2
+Skill 253 Machine Gun: Damage Formula: a.atk * 2.5 - b.def * 2
+Skill 254 Stun Stick: Damage Formula: a.atk * 4 - b.def * 2
+Skill 255 Granada: Damage Formula: a.atk * 5 - b.def * 2
+Skill 256 Burst Shot: Damage Formula: a.atk * 7 - b.def * 2
+Skill 257 Penta-Shot: Damage Formula: a.atk * 3 - b.def * 2
+Skill 259 Pete Planet: Damage Formula: b.hp * 0.9 + 7
+Skill 260 Pete'll Show You: Damage Formula: a.atk * 6 - b.def * 2
+Skill 261 Pete Charge: Damage Formula: a.atk * 4 - b.def * 2
+Skill 262 Squash Flat: Damage Formula: a.atk * 5 - b.def * 2
+Skill 263 Glorious Shot: Damage Formula: a.atk * 32 - b.def * 2
+Skill 266 Black Jab: Damage Formula: a.mat * 10 - b.def * 2
+Skill 267 Pulsating: Damage Formula: a.mat * 3 - b.def * 2
+Skill 268 Final Memories: Damage Formula: a.mat * 22 - b.def * 2
+Skill 269 Thick Darkness: Damage Formula: a.mat * 3 - b.def * 2
+Skill 270 Unfathomable 1: Damage Formula: a.atk * 9 - b.def * 2
+Skill 271 Unfathomable 2: Damage Formula: a.atk * 7 - b.def * 2
+Skill 272 Unfathomable 3: Damage Formula: a.atk * 5 - b.def * 2
+Skill 273 Unfathomable 4: Damage Formula: a.atk * 4 - b.def * 2
+Skill 274 Unfathomable 5: Damage Formula: a.atk * 3 - b.def * 2
+Skill 277 Stealth Chop: Damage Formula: a.atk * 10 - b.def * 2
+Skill 278 Combo Chop: Damage Formula: a.atk * 10 - b.def * 2
+Skill 280 Curse of the Diver: Damage Formula: b.mhp * 0.25
+Skill 281 Stun Rod: Damage Formula: a.atk * 4 - b.def * 2
+Skill 282 Miracle of 10 Percent: Damage Formula: b.mhp * 0.1
+Skill 283 Splitter Hit: Damage Formula: a.atk * 5 - b.def * 2
+Skill 284 Early Curse: Damage Formula: b.mhp * 0.25
+Skill 285 Three Jab: Damage Formula: a.atk * 4 - b.def * 2
+Skill 286 Three Swing: Damage Formula: a.atk * 4 - b.def * 2
+Skill 287 Spook! - Boss Version: Damage Formula: a.atk * 4 - b.def * 2
+Skill 288 Cannons of the beard: Damage Formula: a.atk * 5 - b.def * 2
+Skill 289 Swashbuckler Rush: Damage Formula: a.atk * 4 - b.def * 2
+Skill 290 Intricate Ghosts: Damage Formula: a.atk * 6 - b.def * 2
+Skill 291 Fast Slashes: Damage Formula: a.atk * 3 - b.def * 2
+Skill 292 Tidus Attack: Damage Formula: a.atk * 4 - b.def * 2
+Skill 293 Spiral Slash: Damage Formula: a.atk * 8 - b.def * 2
+Skill 294 Slice and Dice: Damage Formula: a.atk * 2 - b.def * 2
+Skill 297 Blast Punch: Damage Formula: b.hp * 0.5
+Skill 298 Haymaker: Damage Formula: a.atk * 8 - b.def * 2
+Skill 299 Bum to the Boom: Damage Formula: a.atk * 4 - b.def * 2
+Skill 300 Menemenemeh: Damage Formula: a.atk * 3 - b.def * 2
+Skill 301 Mala Ula Day, Eh!: Damage Formula: a.atk * 7 - b.def * 2
+Skill 302 Not the bees: Damage Formula: a.atk * 4 - b.def * 2
+Skill 304 ghost rider  Fire: Damage Formula: 150 + a.atk* 2 - b.mdf * 2
+Skill 305 Hammer Spin: Damage Formula: a.atk * 3 - b.def * 2
+Skill 307 Cop Bop: Damage Formula: a.atk * 4 - b.def
+Skill 308 Robert Rock: Damage Formula: a.atk * 4 - b.def * 4
+Skill 309 Pew Pew: Damage Formula: a.atk * 5 - b.def * 2
+Skill 310 Sad Slip n' Fall: Damage Formula: a.atk * 2 - b.def
+Skill 311 Regretful Combo: Damage Formula: a.atk * 4 - b.def * 3
+Skill 312 Sonic Depression: Damage Formula: a.atk * 5 - b.def * 3
+Skill 313 Big Weld: Damage Formula: a.atk * 6 - b.def * 2
+Skill 314 Arm Weld: Damage Formula: a.atk * 4 - b.def * 2
+Skill 315 Flamethrower: Damage Formula: a.atk * 3
+Skill 316 Missile: Damage Formula: a.atk * 6 - b.def * 2
+Skill 317 Granada: Damage Formula: a.atk * 5 - b.def * 2
+Skill 318 Swipe City: Damage Formula: a.atk * 4 - b.def * 2
+Skill 319 Jetpack Japes: Damage Formula: a.atk * 3 - b.def * 2
+Skill 322 Pop 'em Poops: Damage Formula: a.atk * 3 - b.def * 2
+Skill 323 Bops you upside the face: Damage Formula: a.atk * 4 - b.def * 2
+Skill 324 The Laser of Doom: Damage Formula: a.atk * 7 - b.def * 2
+Skill 325 Stompout: Damage Formula: a.atk * 3 - b.def * 2 
+Skill 326 Twirler: Damage Formula: a.atk * 3.5 - b.def * 2
+Skill 327 Stab Combo: Damage Formula: a.atk * 3 - b.def * 2 
+Skill 328 Incomplete 1: Damage Formula: a.atk * 9 - b.def * 2
+Skill 329 Incomplete 2: Damage Formula: a.atk * 7 - b.def * 2
+Skill 330 Incomplete 3: Damage Formula: a.atk * 5 - b.def * 2
+Skill 331 Incomplete 4: Damage Formula: a.atk * 4 - b.def * 2
+Skill 332 Incomplete 5: Damage Formula: a.atk * 3 - b.def * 2
+Skill 333 Man Titties: Damage Formula: a.atk * 2 - b.def * 2
+Skill 334 AAAAA: Damage Formula: a.atk * 5 - b.def * 2
+Skill 335 RRRRRRRR: Damage Formula: a.atk * 4 - b.def * 2
+Skill 336 Dark Wave - Boss Version: Damage Formula: a.atk * 3 - b.def * 2
+Skill 337 Crippling Blow: Damage Formula: b.mhp * 0.75
+Skill 338 Magical Darts: Damage Formula: a.atk * 4 - b.def * 2
+Skill 339 Log Fury!: Damage Formula: a.atk * 3 - b.def * 2
+Skill 340 Penta-shot: Damage Formula: a.atk * 2 - b.def * 2
+Skill 341 Gun Butt: Damage Formula: a.atk * 5 - b.def * 2
+Skill 342 Chilling Aura: Damage Formula: a.atk * 3 - b.def * 2
+Skill 343 Pipe Swing: Damage Formula: a.atk * 6 - b.def * 2
+Skill 344 Shoot: Damage Formula: a.atk * 5 - b.def * 2
+Skill 345 Fuck: Damage Formula: a.atk * 2 - b.def * 2
+Skill 347 Hammer Fatso: Damage Formula: a.atk  * 4 - b.def * 2
+Skill 348 Rock's Rock: Damage Formula: a.atk * 12 - b.def * 2
+Skill 349 Epic Pistol Shooting: Damage Formula: a.atk * 2 - b.def * 1
+Skill 350 Lights-Out Uppercut: Damage Formula: a.atk * 6 - b.def * 1
+Skill 351 Sweeping Kick: Damage Formula: a.atk * 3 - b.def * 2
+Skill 352 old: Damage Formula: a.atk * 3 - b.def * 2
+Skill 353 4 plague: Damage Formula: a.atk * 4.5 - b.def * 2
+Skill 354 Kill: Damage Formula: a.atk * 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+Skill 355 Dangerous Hit: Damage Formula: a.atk * 0.02
+Skill 356 Backflip: Damage Formula: a.atk * 3 - b.def * 2
+Skill 359 Spin Move: Damage Formula: a.atk * 3.5 - b.def * 2
+Skill 360 Two Smacks: Damage Formula: a.atk * 3 - b.def * 2
+Skill 361 Ground Pound: Damage Formula: a.atk * 3 - b.def * 2
+Skill 362 Rock Toss: Damage Formula: a.atk * 4 - b.def * 2
+Skill 363 Boulder Drop: Damage Formula: a.atk * 7 - b.def * 2
+Skill 364 Boulder Rush: Damage Formula: a.atk * 5 - b.def * 2
+Skill 365 Lightsaber Swing: Damage Formula: a.atk * 4 - b.def * 2
+Skill 366 Double-Edged: Damage Formula: a.atk * 3 - b.def * 2
+Skill 367 Upswing: Damage Formula: a.atk * 6 - b.def * 2
+Skill 368 Force Push: Damage Formula: a.atk * 2 - b.def * 2
+Skill 369 Comment Rush: Damage Formula: a.atk * 7 - b.def * 2
+Skill 370 Turbine Spin: Damage Formula: a.atk * 4 - b.def * 2
+Skill 371 Life Steal: Damage Formula: a.atk * 4 - b.def * 2
+Skill 372 drakelaser neo: Damage Formula: a.atk * 4 - b.def * 2
+Skill 373 Turbine Spin Neo: Damage Formula: a.atk * 3 - b.def * 2
+Skill 374 drakelaser meta: Damage Formula: a.atk * 3 - b.def * 2
+Skill 375 Turbine Spin Meta: Damage Formula: a.atk * 6 - b.def * 2
+Skill 376 Dark Wave e3: Damage Formula: a.atk * 3 - b.def * 2
+Skill 377 Tea Spill: Damage Formula: a.atk * 4 - b.def * 2
+Skill 378 Concentrated Memery - Bosses: Damage Formula: a.atk * 6 - b.def * 2
+Skill 380 Mutilate: Damage Formula: a.atk * 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+Skill 381 Drill Rush: Damage Formula: a.atk * 3 - b.def * 2
+Skill 382 Rock Tremor: Damage Formula: a.atk * 2 - b.def * 2
+Skill 383 Slimy Slips: Damage Formula: a.atk * 3 - b.def * 2
+Skill 384 Dirty Dan Dynamix: Damage Formula: a.atk * 2 - b.def * 2
+Skill 385 Shovel Fwap: Damage Formula: a.atk * 4 - b.def * 2
+Skill 386 Drill Rush EX: Damage Formula: a.atk * 3 - b.def * 2
+Skill 387 Life Steal: Damage Formula: a.atk * 4 - b.def * 2
+Skill 388 drakelaser omega: Damage Formula: a.atk * 5 - b.def * 2
+Skill 389 Electrified Slash: Damage Formula: a.atk * 11 - b.def * 2
+Skill 394 Elbow Drop: Damage Formula: a.atk * 5 - b.def * 2
+Skill 395 Hook Swing: Damage Formula: a.atk * 3.5 - b.def * 2
+Skill 396 Palm Panic: Damage Formula: a.atk * 8 - b.def * 2
+Skill 397 Garbage Toss: Damage Formula: a.atk * 4 - b.def * 2
+Skill 399 Wrestler Suplex: Damage Formula: a.atk * 4.5 - b.def * 2
+Skill 400 Magnum Dive: Damage Formula: a.atk * 4 - b.def * 2
+Skill 401 Can Toss: Damage Formula: a.atk * 6 - b.def * 2
+Skill 402 Can Roll: Damage Formula: a.atk * 2 - b.def * 2
+Skill 403 Psycho Combo: Damage Formula: a.atk * 3 - b.def * 2
+Skill 404 Double Smash: Damage Formula: a.atk * 4 - b.def * 2
+Skill 407 Indian Burn: Damage Formula: a.atk * 2 - b.def * 2
+Skill 408 Big Explosion: Damage Formula: a.atk * 3 - b.def * 2
+Skill 409 Cleaver Smash: Damage Formula: a.atk * 4 - b.def * 2
+Skill 410 Net Trap: Damage Formula: a.atk * 1
+Skill 411 Icy Pierce: Damage Formula: a.atk * 5 - b.def * 2
+Skill 412 Chilling Air: Damage Formula: a.atk * 3 - b.def * 2 
+Skill 413 Incapacitating Ice: Damage Formula: a.atk * 4 - b.def * 2
+Skill 414 Blizzard: Damage Formula: b.mhp * 0.30
+Skill 415 Struggle: Damage Formula: a.atk * 4 - b.def * 2
+Skill 416 Musket Shot: Damage Formula: a.atk * 5
+Skill 417 Bayonet Rush: Damage Formula: a.atk * 3 - b.def * 2 
+Skill 419 Machete Swing: Damage Formula: a.atk * 3 - b.def * 2
+Skill 421 Stun Shank: Damage Formula: a.atk * 3 - b.def * 2
+Skill 422 Tea Spill: Damage Formula: a.atk * 3 - b.def * 2
+Skill 423 Croquet Mallet: Damage Formula: a.atk * 5 - b.def * 2
+Skill 424 Ballsy Swing: Damage Formula: a.atk * 8 - b.def * 2
+Skill 425 Double Swing: Damage Formula: a.atk * 4 - b.def * 2
+Skill 426 Shoot the Gun: Damage Formula: a.atk * 6 - b.def * 2
+Skill 427 Zombie Trio: Damage Formula: a.atk * 3 - b.def * 2
+Skill 428 KILLER KILLER KILLER: Damage Formula: a.atk * 3 - b.def * 3
+Skill 429 Black Jab: Damage Formula: a.atk * 5 - b.def * 2
+Skill 430 Pulsating: Damage Formula: a.atk * 3 - b.def * 2
+Skill 431 Final Memories: Damage Formula: a.atk * 8 - b.def * 2
+Skill 432 Thick Darkness: Damage Formula: a.atk * 2 - b.def * 2
+Skill 434 Leg Ripper: Damage Formula: a.atk * 4
+Skill 435 Covering Fire: Damage Formula: a.atk * 2.5 - b.def * 2
+Skill 436 Sniper Shot: Damage Formula: a.atk * 6 - b.def * 2
+Skill 438 Head Jump: Damage Formula: a.atk * 3 - b.def * 2
+Skill 440 Hack Brain: Damage Formula: a.atk * 3 - b.def * 2
+Skill 441 Wheel: Damage Formula: b.mhp * 0.5
+Skill 442 Not Enough: Damage Formula: b.mhp * 0.5
+Skill 443 Too Much!: Damage Formula: b.mhp * 0.5
+Skill 444 Camel Spit: Damage Formula: a.atk * 4 - b.def * 2
+Skill 445 Hump Shot: Damage Formula: a.atk * 7 - b.def * 2
+Skill 446 Thumbtacks: Damage Formula: a.atk * 2 - b.def * 2
+Skill 447 Bone Head: Damage Formula: a.atk * 4 - b.def * 2
+Skill 448 Rib Throw: Damage Formula: a.atk * 4 - b.def * 2
+Skill 449 Step a lot: Damage Formula: a.atk * 2 - b.def * 2
+Skill 450 Throw Bomb: Damage Formula: a.atk * 3 - b.def * 2
+Skill 452 Throw Match: Damage Formula: a.atk * 1.5 - b.def * 2
+Skill 453 Fireball: Damage Formula: a.atk * 3 - b.def * 2
+Skill 454 Magma Magnum: Damage Formula: a.atk * 5 - b.def * 2
+Skill 455 Volcanic Burst: Damage Formula: a.atk * 4 - b.def * 2
+Skill 457 Voltmeter: Damage Formula: a.atk - b.def * 2
+Skill 458 Wire Cutters: Damage Formula: a.atk * 4 - b.def * 2
+Skill 459 Sautering Kit: Damage Formula: a.atk * 2 - b.def * 2
+Skill 460 Static Shock: Damage Formula: a.atk * 6 - b.def * 2
+Skill 461 Thunder Jab: Damage Formula: a.atk * 4 - b.def * 2
+Skill 462 Pimp Slap: Damage Formula: a.atk * 2 - b.def * 2
+Skill 463 Alternating Current: Damage Formula: a.atk * 3 - b.def * 2
+Skill 464 Eye Stab: Damage Formula: a.atk * 8 - b.def * 2
+Skill 465 Cord Tangle: Damage Formula: a.atk * 2 - b.def * 2
+Skill 466 Lightning Bolt: Damage Formula: a.atk * 8 - b.def * 2
+Skill 467 Paralyzing Electricity: Damage Formula: a.atk * 2 - b.def * 2
+Skill 468 Shockwave: Damage Formula: a.atk * 3 - b.def * 2
+Skill 469 Single Shotgun: Damage Formula: a.atk * 4 - b.def * 2
+Skill 470 Double Shotgun: Damage Formula: a.atk * 6 - b.def * 2
+Skill 471 Riot Cannon: Damage Formula: a.atk * 2 - b.def * 2
+Skill 472 Three-shot burst: Damage Formula: a.atk * 3 - b.def * 2
+Skill 473 Grenade Toss: Damage Formula: a.atk * 3 - b.def * 2
+Skill 474 Snipe: Damage Formula: a.atk * 12 - b.def * 2
+Skill 475 Knife: Damage Formula: a.atk * 4 - b.def * 2
+Skill 476 SMG: Damage Formula: a.atk * 1.5 - b.def * 2
+Skill 477 Pistol: Damage Formula: a.atk * 3 - b.def * 2
+Skill 478 Scythe 1: Damage Formula: a.atk * 3 - b.def * 2
+Skill 479 Scythe 2: Damage Formula: a.atk * 20 - b.def * 2
+Skill 480 Mallet 1: Damage Formula: a.atk * 3 - b.def * 2
+Skill 481 Mallet 2: Damage Formula: a.atk * 3 - b.def * 2
+Skill 482 Laser Gun 1: Damage Formula: a.atk * 3 - b.def * 2
+Skill 483 Laser Gun 2: Damage Formula: a.atk * 3 - b.def * 2
+Skill 484 Axe 1: Damage Formula: a.atk * 3 - b.def * 2
+Skill 485 Axe 2: Damage Formula: a.atk * 6 - b.def * 2
+Skill 486 Shoot: Damage Formula: a.atk * 3 - b.def * 2
+Skill 487 Screwdriver: Damage Formula: a.atk * 2 - b.def * 2
+Skill 488 Noise Cannon: Damage Formula: a.atk * 2 - b.def * 2
+Skill 489 Missile: Damage Formula: a.atk * 3 - b.def * 2
+Skill 490 Knife: Damage Formula: a.atk * 4 - b.def * 2
+Skill 491 Red-Hot Kick: Damage Formula: a.atk * 4 - b.def * 2
+Skill 492 Punch into Kick: Damage Formula: a.atk * 3 - b.def * 2
+Skill 493 Rushdown: Damage Formula: a.atk * 2 - b.def * 2
+Skill 494 Rapid Jabs: Damage Formula: a.atk * 2 - b.def * 2
+Skill 495 Proton Cannon: Damage Formula: a.atk * 3 - b.def * 2
+Skill 496 Meteor Shower: Damage Formula: a.atk * 3 - b.def * 2
+Skill 497 Energy Bolt: Damage Formula: a.atk * 4 - b.def * 2
+Skill 498 Earthquake: Damage Formula: a.atk * 2 - b.def * 2
+Skill 501 peck attack: Damage Formula: a.atk * 2.5 - b.def * 2
+Skill 502 egg attack: Damage Formula: a.atk * 2 - b.def * 2
+Skill 503 chicken knife: Damage Formula: a.atk * 5 - b.def * 2
+Skill 504 chargedown: Damage Formula: a.atk * 5 - b.def * 2
+Skill 505 face bite: Damage Formula: a.atk * 2 - b.def * 2
+Skill 506 bat swing: Damage Formula: a.atk * 4 - b.def * 2
+Skill 507 poison swing: Damage Formula: a.atk * 2.5 - b.def * 2
+Skill 508 rat horde: Damage Formula: a.atk * 2 - b.def * 2
+Skill 510 poison bite: Damage Formula: a.atk * 3 - b.def * 2
+Skill 511 Tesla Bolt: Damage Formula: a.atk * 8 - b.def * 2
+Skill 512 Thunderclap: Damage Formula: a.atk * 8 - b.def * 2
+Skill 513 Titahomosexia: Damage Formula: a.atk * 24 - b.def * 2
+Skill 516 Sneeze: Damage Formula: a.atk * 4 - b.def * 2
+Skill 518 Booger: Damage Formula: a.atk * 6 - b.def * 2
+Skill 519 Sap: Damage Formula: a.atk * 2.5 - b.def * 2
+Skill 520 VENOM: Damage Formula: a.atk * 4 - b.def * 2
+Skill 521 Lightning Web: Damage Formula: a.atk * 2.5 - b.def * 2
+Skill 523 Smoke Cloud: Damage Formula: a.atk * 3 - b.def * 2
+Skill 524 Trumpet Bash: Damage Formula: a.atk * 5 - b.def * 2
+Skill 525 Pen: Damage Formula: a.atk * 6 - b.def * 2
+Skill 526 Apple: Damage Formula: a.atk * 3 - b.def * 2
+Skill 527 Pineapple: Damage Formula: a.atk * 3 - b.def * 2
+Skill 528 Apple Pen: Damage Formula: a.atk * 5 - b.def * 2
+Skill 529 Pineapple Pen: Damage Formula: a.atk * 5 - b.def * 2
+Skill 530 PPAP: Damage Formula: a.atk * 3 - b.def * 2
+Skill 531 Twist: Damage Formula: a.atk * 3 - b.def * 2
+Skill 533 Sonic Voice: Damage Formula: a.atk * 2 - b.def * 2
+Skill 534 Sword Vortex: Damage Formula: a.atk * 3 - b.def * 2
+Skill 536 Finger Point: Damage Formula: a.atk * 6 - b.def * 2
+Skill 537 Up and Down: Damage Formula: a.atk * 4 - b.def * 2
+Skill 538 Pirate Party: Damage Formula: a.atk * 4 - b.def * 2
+Skill 539 Deathbound: Damage Formula: a.atk * 3 - b.def * 2
+Skill 540 Heavy Swing: Damage Formula: a.atk * 6 - b.def * 2
+Skill 541 Wing Buster: Damage Formula: a.atk * 2 - b.def * 2
+Skill 542 Vile Peck Assault: Damage Formula: a.atk * 3 - b.def * 2
+Skill 543 Double Talon: Damage Formula: a.atk * 3.5 - b.def * 2
+Skill 544 Rapid Spit: Damage Formula: a.atk * 2 - b.def * 2
+Skill 545 Flame Spit: Damage Formula: a.atk * 3 - b.def * 2
+Skill 546 Jumbo Spit: Damage Formula: a.atk * 6 - b.def * 2
+Skill 547 Lung Cancer: Damage Formula: b.mhp * 0.9
+Skill 548 SMOKE: Damage Formula: a.atk * 2 - b.def * 2
+Skill 549 Blood Placebo: Damage Formula: a.atk * 1 - b.def * 2
+Skill 550 Burner: Damage Formula: a.atk * 3 - b.def * 2
+Skill 552 LASER EYES: Damage Formula: a.atk * 3 - b.def * 2
+Skill 553 LIGHTSABER: Damage Formula: a.atk * 5 - b.def * 2
+Skill 554 LIGHTNING CLAWS: Damage Formula: a.atk * 3 - b.def * 2
+Skill 555 SIGMA VIRUS: Damage Formula: a.atk * 1.5 - b.def * 2
+Skill 556 DICK LASER: Damage Formula: a.atk * 5 - b.def * 2
+Skill 557 Demon Explosion: Damage Formula: a.atk * 5.5 - b.def * 2
+Skill 558 Scorched Earth: Damage Formula: a.atk * 2.5 - b.def * 2
+Skill 559 Flaming Waves: Damage Formula: a.atk * 3 - b.def * 2
+Skill 560 Slice: Damage Formula: a.atk * 4 - b.def * 2
+Skill 561 Dice: Damage Formula: a.atk * 3 - b.def * 2
+Skill 562 Omaha Launch: Damage Formula: a.atk * 5 - b.def * 2
+Skill 563 Bsoda Massacre: Damage Formula: a.atk * 4 - b.def * 2
+Skill 564 Pushback Wave: Damage Formula: a.atk * 1 - b.def * 2
+Skill 567 The Quartering: Damage Formula: b.mhp * 0.25
+Skill 568 Cliff Racer Attack: Damage Formula: a.atk * 4 - b.def * 2
+Skill 569 Aldos Dagger: Damage Formula: a.atk * 4.5 - b.def * 2
+Skill 570 Crazy Gun: Damage Formula: a.atk * 3 - b.def * 2
+Skill 571 Cliff Racer Strike: Damage Formula: a.atk * 3 - b.def * 2 
+Skill 572 Drunk Barrage: Damage Formula: a.atk * 3 - b.def * 2
+Skill 573 Genocide Wave: Damage Formula: b.mhp * 0.75
+Skill 574 Lance of Atrophy: Damage Formula: a.atk * 2 - b.def * 2
+Skill 575 Full-Life: Damage Formula: b.mhp
+Skill 576 Flare: Damage Formula: a.atk * 4 - b.def * 2
+Skill 577 Cross Cleave: Damage Formula: a.atk * 3 - b.def * 2
+Skill 578 Flare - Countdown 1: Damage Formula: a.atk * 4 - b.def * 2
+Skill 579 Total Annihilation: Damage Formula: a.atk * 8 - b.def * 2
+Skill 580 Flare - Countdown 2: Damage Formula: a.atk * 4 - b.def * 2
+Skill 581 Unreal Power: Damage Formula: a.atk * 6 - b.def * 2
+Skill 583 Heavy Weather: Damage Formula: a.atk * 4 - b.def * 2
+Skill 584 Light Buckshot: Damage Formula: a.atk * 3 - b.def * 2
+Skill 585 Punch You in the Face Really Hard: Damage Formula: a.atk * 6 - b.def * 2
+Skill 586 Spirit of Power: Damage Formula: a.atk * 2 - b.def * 2
+Skill 587 Light Wave: Damage Formula: a.atk * 3 - b.def * 2
+Skill 588 Light Bolts: Damage Formula: a.atk * 4 - b.def * 2
+Skill 589 Light Buster: Damage Formula: a.atk * 1 - b.def * 2
+Skill 590 Lightning Spear: Damage Formula: a.atk * 3 - b.def * 2
+Skill 591 Power Stance: Damage Formula: a.atk * 3 - b.def * 2
+Skill 592 Ultra Greatsword: Damage Formula: a.atk * 6 - b.def * 2
+Skill 593 Scaetherian Burst: Damage Formula: a.atk * 5 - b.def * 2
+Skill 594 Wrath of Anar: Damage Formula: a.atk * 2 - b.def * 2
+Skill 595 Detterance Wave: Damage Formula: b.mhp * 0.1
+Skill 596 Power Blast: Damage Formula: b.mhp * 0.70
+Skill 598 Scatman Symptom: Damage Formula: b.mhp - 1
+Skill 599 Scatman's World Rebirth: Damage Formula: b.hp - 1
+Skill 601 Invisible Man: Damage Formula: a.atk * 4 - b.def * 2
+Skill 602 Scaetherian Mob: Damage Formula: a.atk * 3 - b.def * 2
+Skill 603 Talking Something Very Shocking: Damage Formula: a.atk * 2 - b.def * 2
+Skill 604 Crippling Blow - Final: Damage Formula: b.mhp * 0.75
+Skill 605 Magical Darts - Final: Damage Formula: a.atk * 3.5 - b.def * 2
+Skill 606 Dark Wave - Final Wiz: Damage Formula: a.atk * 3 - b.def * 2
+Skill 607 Tea Spill - Final: Damage Formula: a.atk * 4 - b.def * 2
+Skill 608 Concentrated Memery - Final: Damage Formula: a.atk * 5 - b.def * 2
+Skill 609 Comment Rush - Final: Damage Formula: a.atk * 5 - b.def * 2
+Skill 610 Tea of Weakness: Damage Formula: a.atk * 2 - b.def * 2
+Skill 611 Saucer Attack: Damage Formula: a.atk * 4 - b.def * 2
+Skill 612 Taxation : Damage Formula: b.mhp * 0.25
+Skill 613 Haggis Bomb: Damage Formula: a.atk * 2.5 - b.def * 3
+Skill 614 Light Beam: Damage Formula: a.atk * 3 - b.def * 2
+Skill 615 Comment Buster: Damage Formula: a.atk * 3 - b.def * 2
+Skill 617 Black Wave Ziwh: Damage Formula: a.atk * 4 - b.def * 2
+Skill 618 Mallet Smash: Damage Formula: a.atk * 5 - b.def * 2
+Skill 619 Light Wave: Damage Formula: a.atk * 2 - b.def * 2
+Skill 620 Necronomicon Britannica: Damage Formula: a.atk * 2 - b.def * 3
+Skill 621 Comment Annihilator: Damage Formula: b.mhp * 0.6
+Item 16 Kill Everything Stick: Damage Formula: 1999 - b.def * 2
